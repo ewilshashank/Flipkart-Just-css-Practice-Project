@@ -1,0 +1,71 @@
+@media screen and (max-width:1630px){
+    html, body{
+            margin:0;
+            padding:0;
+            overflow-x:hidden;
+    }
+    nav {
+        justify-content: space-evenly;
+        height: 25vh;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .search {
+        position: static;
+    }
+    input[type="text"] {
+        width: 40vw;
+    }
+    input.login-btn{
+        padding: 6px 3vw;
+        margin-left: 13px;
+    }
+    .flex-1{
+        padding:0;
+        height:220px;
+        display: inline-grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .flex-1 .flex-2{
+        display: none;
+    }
+    .products-img {
+        display: none;
+    }
+    main {
+        overflow-x: scroll;
+    }
+}
+@media screen and (max-width:1050px){
+    footer {
+        overflow: scroll;
+    }
+    footer.footer-1{
+        justify-content: space-between;
+    }
+    .sec-1{
+        overflow: scroll;
+    }
+}
+@media screen and (max-width:500px){
+    nav{
+        height:44vh;
+    }
+    .logo{
+        margin-top: 5px;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    li{
+        margin: 10px 0px;
+    }
+    .flex-1{
+        overflow-x: scroll;
+    }
+    .flex-2-1{
+        width:120px;
+    }
+}
